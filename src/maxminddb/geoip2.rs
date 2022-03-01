@@ -103,6 +103,7 @@ pub mod model {
         pub longitude: Option<f64>,
         pub metro_code: Option<u16>,
         pub time_zone: Option<&'a str>,
+        pub accuracy_radius: Option<u16>,
     }
 
     #[derive(Deserialize, Serialize, Clone, Debug)]
